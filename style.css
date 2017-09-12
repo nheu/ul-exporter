@@ -7,25 +7,21 @@ html, body { height:100%; margin:0 auto; padding:0; font-family: 'Open Sans', sa
 h1, h2, h3, h4, h5, h6, p { margin:0; padding:0; }
 h1 { font-weight: bold; font-size: 2.45em; }
 p { font-size: 1.6em; font-weight: 200; }
-a { color: #000000; width: 50px; height: 50px; text-align: center; border-radius: 50%; border: 1px solid #000000; display: inline-block; margin: 10px 3px 10px 3px; -webkit-transition: 0.5s; transition: 0.5s; }
+a { color: #000000; width: 30px; height: 30px; text-align: center; border-radius: 50%; border: 1px solid #000000; display: inline-block; margin: 10px 3px 10px 3px; -webkit-appearance: none; -webkit-transition: 0.5s; transition: 0.5s; }
 a:hover { color: #fff; text-decoration: none; background: #000000; }
-a .fa { line-height: 50px; }
+a .fa { line-height: 30px; }
 .our-color { color: #000000; }
 
 #error { font-size: 1em; color: #e83233; margin: 10px; }
 #success { font-size: 1em; color: #09a178; margin: 10px; }
 
-form input { margin: 20px auto; height: 40px; border: 1px solid #edeff0; outline: none; padding: 0 15px; border-radius: 0; -webkit-appearance: none; }
-form input#email-subscribe { width: 250px; color: #b3b3b3; -webkit-transition: 0.5s; transition: 0.5s; text-align: center;}
-form input#email-subscribe:focus { border-color: #b3b3b3; }
-form input#subscribebtn { color: #fff; background: #CFCF61; cursor: pointer; -webkit-transition: 0.5s; transition: 0.5s; }
+form input { margin: 20px auto; height: 45px; border: 1px solid #edeff0; outline: none; padding: 0 15px; border-radius: 0; -webkit-appearance: none; font-size: 14px; }
+form input#email-subscribe { width: 250px; color: #b3b3b3; -webkit-transition: 0.5s; transition: 0.5s; text-align: center; margin-top: 40px;}
+form input#email-subscribe:focus { border-color: #000000; color: #000000; font-weight: bold; }
+form input#subscribebtn { color: #fff; background: #CFCF61; cursor: pointer; -webkit-transition: 0.5s; transition: 0.5s; margin-top: 0px; }
 form input#subscribebtn:hover { background: #8F8F47; }
 
 #container { background:#fff; height:100%; margin:0 auto; padding:0; overflow:hidden; }
-
-#container .brand { background:#F1F279; width:100%; height:40%; margin:0 auto; position:relative; }
-#container .brand h1 { color:#fff; display:inline-block; position:absolute; top:50%; left:50%; }
-#container .brand p { color:#fff; display:inline-block; position:absolute; top:70%; left:50%; }
-
+#container .banner { background:#F1F279; width:100%; height:40%; margin:0 auto; position:relative; }
 #container #content { background:transparent; width:100%; height:60%; margin:0 auto; position:relative; overflow:hidden; }
 #container #content .content { display:inline-block; position:absolute; top:50%; left:50%; text-align: center; }
