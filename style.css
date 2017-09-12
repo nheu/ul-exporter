@@ -15,7 +15,7 @@ a .fa { line-height: 50px; }
 #error { font-size: 1em; color: #e83233; margin: 10px; }
 #success { font-size: 1em; color: #09a178; margin: 10px; }
 
-form input { margin: 20px auto; height: 40px; border: 1px solid #edeff0; outline: none; padding: 0 15px; }
+form input { margin: 20px auto; height: 40px; border: 1px solid #edeff0; outline: none; padding: 0 15px; border-radius: 0; -webkit-appearance: none; }
 form input#email-subscribe { width: 250px; color: #b3b3b3; -webkit-transition: 0.5s; transition: 0.5s; text-align: center;}
 form input#email-subscribe:focus { border-color: #b3b3b3; }
 form input#subscribebtn { color: #fff; background: #CFCF61; cursor: pointer; -webkit-transition: 0.5s; transition: 0.5s; }
