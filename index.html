@@ -1,27 +1,29 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Calendar exporter</title>
-<link rel="stylesheet" type="text/css" href="style.css">
-<meta name="viewport" content="initial-scale=0.9, maximum-scale=0.9">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Calendar exporter</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="initial-scale=0.9, maximum-scale=0.9">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body style="">
+<body>
 	<div id="container">
     	<div class="banner">
-            <img src="logo.png" style="width: 75px; top: 40%; position: absolute; left: 50%; margin-left: -35px;">               
+            <img src="logo.png" style="width: 75px; top: 40%; position: absolute; left: 50%; margin-left: -35px;">
         </div>
         <div id="content">
         	<div class="content" style="margin-left: -210px; margin-top: -125px;">
         		<p class="our-color">Export de calendrier</p>
                 <form class="subscriptionForm" method="post" id="signup-form" style="padding-right: 25px; padding-left: 25px;">
-                    <input id="email-subscribe" name="email" placeholder="Nom d&#39;utilisateur">
-                    <input type="submit" id="subscribebtn" value="    Valider    ">
+                    <input id="export-username" autocapitalize="none" name="username" placeholder="Nom d&#39;utilisateur">
+                    <input id="export-btn" type="button" value="    Valider    ">
                 </form>
                 <div class="social-networks">
-                    <a><span class="fa fa-google-plus">&clubs;</span></a>                    
+                    <a><span class="fa fa-google-plus">&clubs;</span></a>
                 </div>
             </div>
         </div>
     </div>
-
-
-</body></html>
+		<script type="text/javascript" src="export.js"></script>
+</body>
+</html>
